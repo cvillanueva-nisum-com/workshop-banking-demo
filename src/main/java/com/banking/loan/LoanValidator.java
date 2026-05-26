@@ -5,17 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
-/**
- * DEMO ESCENARIO 1 - INLINE AUTOCOMPLETE / REFACTORING
- *
- * Este validador fue escrito hace 3 años por un desarrollador junior.
- * Funciona correctamente pero es imposible de mantener.
- *
- * EJERCICIO: Seleccionar el metodo validate() y pedirle a Copilot:
- * "Refactorizar este metodo usando early returns, constantes nombradas
- *  y extrayendo condiciones a metodos privados con nombres descriptivos.
- *  Mantener la misma logica de negocio."
- */
+/** Valida solicitudes de credito contra reglas de negocio y perfil del solicitante. */
 @Component
 public class LoanValidator {
 

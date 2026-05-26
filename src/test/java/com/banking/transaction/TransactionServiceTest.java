@@ -19,12 +19,6 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.when;
 
-/**
- * DEMO ESCENARIO 2 - Tests que exponen el BUG del porcentaje.
- *
- * El test "debitPercentageShouldBeAccurate" falla con la implementacion
- * actual porque usa division entera. Usar Copilot /fix para corregirlo.
- */
 @ExtendWith(MockitoExtension.class)
 class TransactionServiceTest {
 
@@ -54,7 +48,7 @@ class TransactionServiceTest {
     @Test
     @DisplayName("Porcentaje de debitos deberia ser preciso con decimales")
     void debitPercentageShouldBeAccurate() {
-        // 3 debitos de 7 total = 42.86%, NO 42 (division entera)
+
         List<Transaction> txs = List.of(
             buildTx(1L, new BigDecimal("100"), "DEBIT"),
             buildTx(1L, new BigDecimal("100"), "DEBIT"),
@@ -70,8 +64,6 @@ class TransactionServiceTest {
 
         Map<String, Object> summary = transactionService.getDailySummary(1L, LocalDate.now());
 
-        // Este test FALLA con la implementacion actual (retorna 42 en vez de 42.86)
-        // EJERCICIO: Usar Copilot /fix para detectar y corregir el bug
         Object pct = summary.get("debitPercentage");
         assertThat(new BigDecimal(pct.toString()))
             .isGreaterThan(new BigDecimal("42.80"))

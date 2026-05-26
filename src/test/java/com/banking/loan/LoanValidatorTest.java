@@ -9,11 +9,6 @@ import java.math.BigDecimal;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-/**
- * Tests existentes para LoanValidator.
- * Solo cubren el happy path — dejan muchos edge cases sin testear.
- * EJERCICIO: Usar Copilot /tests para completar la cobertura.
- */
 class LoanValidatorTest {
 
     private LoanValidator validator;
@@ -49,15 +44,5 @@ class LoanValidatorTest {
         assertThat(result.message()).contains("40%");
     }
 
-    // --- AREA PARA COMPLETAR CON COPILOT /tests ---
-    // Casos faltantes:
-    // - request nulo
-    // - monto nulo
-    // - monto negativo
-    // - plazo fuera de rango (5 meses, 361 meses)
-    // - monto > 50M con score < 800
-    // - monto > 50M con score >= 800
-    // - plazo > 120 con score < 750
-    // - monto minimo exacto (100000)
-    // - monto maximo exacto (500000000)
+
 }

@@ -4,18 +4,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.regex.Pattern;
 
-/**
- * DEMO ESCENARIO 3 - /explain con Copilot
- *
- * Validador de RUT chileno con regex y algoritmo modulo 11.
- * El codigo fue heredado de un sistema legacy de 2015.
- * Ningun miembro del equipo actual lo entiende completamente.
- *
- * EJERCICIO: Seleccionar toda la clase y usar Copilot Chat:
- * "/explain Explicar paso a paso que hace este codigo,
- *  que valida el regex y como funciona el algoritmo modulo 11
- *  para el digito verificador chileno."
- */
+/** Validacion de formato y digito verificador de RUT chileno. */
 @Component
 public class RutValidator {
 

@@ -9,14 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.math.BigDecimal;
 import java.util.List;
 
-/**
- * DEMO ESCENARIO 4: Este servicio tiene logica de negocio correcta
- * pero NO tiene tests unitarios. Usar Copilot /tests para generarlos.
- *
- * Funciones a testear:
- * - getBalance: cuenta activa vs inactiva vs no existe
- * - transfer: fondos suficientes, insuficientes, cuenta destino inactiva
- */
 @Service
 @RequiredArgsConstructor
 public class AccountService {
