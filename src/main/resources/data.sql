@@ -1,4 +1,4 @@
-﻿-- Demo seed data for GitHub Copilot Workshop
+-- Demo seed data for GitHub Copilot Workshop
 
 INSERT INTO account (id, account_number, owner_name, balance, account_type, active) VALUES
 (1, 'BANK-001-2024', 'Empresa Constructora SA', 15000000.00, 'CORRIENTE', true),

@@ -1,6 +1,6 @@
-﻿package com.demo.banking.transaction;
+package com.banking.transaction;
 
-import com.demo.banking.transaction.model.Transaction;
+import com.banking.transaction.model.Transaction;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

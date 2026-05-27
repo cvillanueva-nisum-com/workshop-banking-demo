@@ -1,4 +1,4 @@
-﻿package com.demo.banking.loan.model;
+package com.banking.loan.model;
 
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.Max;

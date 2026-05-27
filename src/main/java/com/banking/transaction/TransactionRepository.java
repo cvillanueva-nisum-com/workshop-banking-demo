@@ -1,6 +1,6 @@
-﻿package com.demo.banking.transaction;
+package com.banking.transaction;
 
-import com.demo.banking.transaction.model.Transaction;
+import com.banking.transaction.model.Transaction;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

@@ -1,11 +1,11 @@
-﻿package com.demo.banking;
+package com.banking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoBankingApplication {
+public class BiceBankingApplication {
     public static void main(String[] args) {
-        SpringApplication.run(DemoBankingApplication.class, args);
+        SpringApplication.run(BiceBankingApplication.class, args);
     }
 }

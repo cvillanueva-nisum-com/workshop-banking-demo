@@ -1,7 +1,7 @@
-﻿package com.demo.banking.loan;
+package com.banking.loan;
 
-import com.demo.banking.loan.model.Loan;
-import com.demo.banking.loan.model.LoanRequest;
+import com.banking.loan.model.Loan;
+import com.banking.loan.model.LoanRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

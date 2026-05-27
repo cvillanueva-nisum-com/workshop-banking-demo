@@ -1,6 +1,6 @@
-﻿package com.demo.banking.loan;
+package com.banking.loan;
 
-import com.demo.banking.loan.model.LoanRequest;
+import com.banking.loan.model.LoanRequest;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;

@@ -1,6 +1,6 @@
-﻿package com.demo.banking.transaction;
+package com.banking.transaction;
 
-import com.demo.banking.transaction.model.Transaction;
+import com.banking.transaction.model.Transaction;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;

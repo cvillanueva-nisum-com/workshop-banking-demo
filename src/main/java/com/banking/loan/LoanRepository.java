@@ -1,6 +1,6 @@
-﻿package com.demo.banking.loan;
+package com.banking.loan;
 
-import com.demo.banking.loan.model.Loan;
+import com.banking.loan.model.Loan;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 

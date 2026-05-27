@@ -1,4 +1,4 @@
-﻿package com.demo.banking.account.model;
+package com.banking.account.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

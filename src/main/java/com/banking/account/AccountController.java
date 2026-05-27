@@ -1,7 +1,7 @@
-﻿package com.demo.banking.account;
+package com.banking.account;
 
-import com.demo.banking.account.model.Account;
-import com.demo.banking.account.model.TransferRequest;
+import com.banking.account.model.Account;
+import com.banking.account.model.TransferRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

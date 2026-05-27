@@ -1,2 +1,2 @@
-﻿/** Deteccion de transacciones fraudulentas en tiempo real. */
+/** Deteccion de transacciones fraudulentas en tiempo real. */
 package com.banking.fraud;

@@ -1,6 +1,6 @@
-﻿package com.demo.banking.account;
+package com.banking.account;
 
-import com.demo.banking.account.model.Account;
+import com.banking.account.model.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
