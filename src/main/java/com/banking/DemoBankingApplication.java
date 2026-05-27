@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BiceBankingApplication {
+public class DemoBankingApplication {
     public static void main(String[] args) {
-        SpringApplication.run(BiceBankingApplication.class, args);
+        SpringApplication.run(DemoBankingApplication.class, args);
     }
 }
